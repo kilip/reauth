@@ -50,7 +50,7 @@ importers:
   packages/testing:
     devDependencies:
       tsconfig:
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:../../internal/tsconfig
       tsup:
         specifier: ^7.2.0
